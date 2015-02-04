@@ -12,6 +12,9 @@ h3 {
     -webkit-padding-start: 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
+    -moz-padding-start: 0;
+    -moz-margin-before: 0;
+    -moz-margin-after: 0;
 }
 
 .group:before,
@@ -64,6 +67,8 @@ img.logo {
 	height: 28px;
 	margin-left: 15px;
 }
+
+.signup-button:hover { background-color: #6C6C6C; }
 
 .signup-button a { 
 	color: #a8bf1e;
@@ -189,6 +194,8 @@ main > div {
     float: right;
 }
 
+.main-content a:hover { text-decoration: underline; }
+
 .secondary-content {
     width: 420px;
     border-bottom: #f6f6f6;
@@ -208,7 +215,7 @@ main > div {
 }
 
 .secondary-content img:nth-child(even) {
-    margin-right: 20px;
+    margin-right: 17px;
 }
 
 .about {
@@ -241,6 +248,8 @@ footer h3 {
 
 footer nav { float: right; }
 
+footer nav ul { margin: 0; }
+
 .footer-nav ul li  { 
     display: inline-block; 
     margin-right: 7px;
@@ -253,8 +262,9 @@ footer nav { float: right; }
     color: #4b4b4b;
     font-size: 10px;
     text-transform: uppercase;
-    
 }
+
+.footer-nav ul li a:hover { color: #fff; }
 
 copy { 
     font-size: 10px; 
